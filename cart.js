@@ -35,3 +35,4 @@ function myFunction() {
 function endShop() {
     alert("THANK YOU!COME AGAIN!");
 }
+
