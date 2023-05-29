@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==Title==================================-->
+    <title>MY Grocery Store</title>
+    <!--==Stylesheet=============================-->
+    <link rel="stylesheet" type="text/css" href="store.css"/>
+    <!--==Fav-icon===============================-->
+    <link rel="shortcut icon" href="images/fav-icon.png"/>
+    <!--==Using-Font-Awesome=====================-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--==Fav-icon===============================-->
+    <link rel="shortcut icon" href="images/fav-icon.png"/>
+    <!--==Using-Font-Awesome=====================-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--==Import-Font-Family======================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #849b86;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #76a37e;
+        }
+        </style>
+</head>
+
+<body>
+    <!--==Navigation================================-->
+    <nav class="navigation">
+        <!--logo-------->
+        <a href="index.html" class="logo">
+            <span>Naa</span>Grocery
+        </a>
+        </label>
+        <!--menu-------->
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#category">Categories</a></li>
+        </ul>
+</script>
+</nav>
+<!--nav-end--------------------->
+ <!--==Search-banner=======================================-->
+    <section id="search-banner">
+        <!--bg--------->
+        <img src="images/bg-1.png" class="bg-1" alt="bg">
+        <img src="images/bg-2.png" class="bg-2" alt="bg-2">
+        <!--text------->
+        <div class="search-banner-text">
+            <h1 style="color: grey;">Order Your daily Groceries</h1>
+            <strong><p style="color: green;">#Free Delivery</p></strong>
+            <!--search-box------>
+            <h2 style="color: black;font-size:36px">User Info</h2>
+    <form action="">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+         <button onclick="welcome()">Submit</button>
+        </form> 
+        </div>
+    </section>
+    <!--search-banner-end--------------->
+<!--==category=========================================-->
+<section id="category">
+    <!--heading---------------->
+    <div class="category-heading">
+        <h2>Category</h2>
+        <span>All</span>
+    </div>
+    <!--box-container---------->
+    <div class="category-container">
+        <!--box---------------->
+        <a href="#Product" class="category-box">
+            <img src="images/fish.png" alt="Fish">
+            <span>Fish & Meat</span>
+        </a>
+        <!--box---------------->
+        <a href="#Vegetables" class="category-box">
+            <img src="images/Vegetables.png" alt="Vege">
+            <span>Vegatables</span>
+        </a>
+        <!--box---------------->
+        <a href="#Office" class="category-box">
+            <img src="images/office.png" alt="Office">
+            <span>Office</span>
+        </a>
+        <!--box---------------->
+        <a href="#Beauty" class="category-box">
+            <img src="images/beauty.png" alt="beauty">
+            <span>Beauty</span>
+        </a>
+    </div><!--==Products====================================-->
+    <section id="Product">
+        <!--heading----------->
+        <div class="product-heading">
+            <h3>Product</h3>
+            <br><br>
+        </div>
+        <!--box-container------>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img src="ikan kembong.jpeg" alt="fish">
+                <strong>Kembong</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">6.99$</span>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img src="ikan keli.jpeg" alt="fish">
+                <strong>Keli</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">3.99$</span>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img src="ayam.jpeg" alt="apple">
+                <strong>Chicken</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">8.99$</span>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img src="lembu.jpeg" alt="apple">
+                <strong>Meat</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">12.99$</span>
+            </div>
+            <div class="product-box">
+                <img src="siakap.jpeg" alt="apple">
+                <strong>Siakap</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">7.99$</span>
+            </div>
+            <div class="product-box">
+                <img src="termenung.jpeg" alt="apple">
+                <strong>Termenung</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">2.99$</span>
+            </div>
+        </div>
+    </section>
+    <!--Vegetables===================================-->
+    <section id="Vegetables">
+        <!--heading-------------->
+        <div class="product-heading">
+            <h3>Vegetables</h3>
+        </div>
+        <!--box-container------>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img src="kailan.jpeg" alt="pack">
+                <strong>Kailan</strong>
+                <span class="price">9$</span>
+            </div>
+             <!--box---------->
+             <div class="product-box">
+                <img src="kankung.jpg" alt="apple">
+                <strong>Kankung</strong>
+                <span class="price">5$</span>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img src="tauge.jpeg" alt="apple">
+                <strong>Tauge</strong>
+                <span class="price">3$</span>
+            </div>
+        </div>
+    </section>
+     <!--Office===================================-->
+     <section id="Office">
+        <!--heading-------------->
+        <div class="product-heading">
+            <h3>Office</h3>
+        </div>
+        <!--box-container------>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img src="pen.jpeg" alt="pack">
+                <strong>3 Color Pen</strong>
+                <span class="price">4.99$</span>
+            </div>
+             <!--box---------->
+             <div class="product-box">
+                <img src="A4 paper.jpeg" alt="apple">
+                <strong>A4 Paper</strong>
+                <span class="price">2.99$</span>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img src="cp tape.jpeg" alt="apple">
+                <strong>Correction Tape</strong>
+                <span class="price">3$</span>
+            </div>
+        </div>
+    </section>  
+    <!--Beauty===================================-->
+    <section id="Beauty">
+        <!--heading-------------->
+        <div class="product-heading">
+            <h3>Beauty</h3>
+        </div>
+        <!--box-container------>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img src="baby powder.jpg" alt="pack">
+                <strong>Baby Powder</strong>
+                <span class="price">4$</span>
+            </div>  
+            <!--box---------->
+            <div class="product-box">
+                <img src="sunsun.jpeg" alt="pack">
+                <strong>Sunscreen</strong>
+                <span class="price">2$</span>
+            </div>
+        </div>
+    </section>
+    <!--POPULAR PRODUCT-->
+    <h2>HOT ITEMS!</h2>
+
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Categories</th>
+        <th>Brand</th>
+      </tr>
+      <tr>
+        <td>Onions</td>
+        <td>Vegetables</td>
+        <td>Maria Farm</td>
+      </tr>
+      <tr>
+        <td>Baby Powder</td>
+        <td>Beauty</td>
+        <td>Johnson</td>
+      </tr>
+      <tr>
+        <td>Pen</td>
+        <td>Office</td>
+        <td>Faber Bilo</td>
+      </tr>
+    </table>
+
+        <!--Choose Items-->
+        <section id="Calculate">
+            <!--heading-------------->
+            <br>
+                <h3>Calculate</h3>
+                <form>
+                    <div class="product-box">
+                        <label for="productName" class="form-label">Product Name</label>
+                        <select>
+                            <option value="">Select Your Choice:</option>
+                            <option value="Kembong">Kembong</option>
+                            <option value="Keli">Keli</option>
+                            <option value="Chicken">Chicken</option>
+                            <option value="Meat">Meat</option>
+                            <option value="Siakap">Siakap</option>
+                            <option value="Termenung">Termenung</option>
+                            <option value="Kailan">Kailan</option>
+                            <option value="Kankung">Kankung</option>
+                            <option value="Tauge">Tauge</option>
+                            <option value="Pen">3 Color pen</option>
+                            <option value="Paper">A4 Paper</option>
+                            <option value="cp">Correction Tape</option>
+                            <option value="Powder">Baby Powder</option>
+                            <option value="Sunscreen">Sunscreen</option>
+                        </select>
+                    </div>
+                    <div class="product-box">
+                        <label for="proprice" class="form-label">Product Price</label>
+                        <input type="number" class="form-control" id="proprice" oninput="myFunction()">
+                    </div>
+                    <div class="product-box">
+                        <label for="proquantity" class="form-label">Quantity</label>
+                        <input type="number" class="form-control" id="proquantity" oninput="myFunction()">
+                    </div>            
+                    <hr>
+                    <script src="cart.js"></script>
+                 
+                    <h4>Total Price: <span id="totalPrice">0</span></h4>
+                </form>
+
+                <form action="#search-banner">
+                <button onclick="endShop()">Done</button>
+            </form>
+        </body>

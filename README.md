@@ -1,2 +1,0 @@
-# MY-GROCERY-STORE
-hannaw
